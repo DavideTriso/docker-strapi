@@ -56,7 +56,7 @@ environment:
     ENV: dev
 ```
 
-> NOTE: When the container starts, if there is no package.json file in the /app directory, the entrypoint script will initiate the creation of a new Strapi application with default configurations and install the MySQL package as a project dependency.
+> NOTE: When the container is launched, and no `package.json` file is found in the `/app` directory, the entrypoint script will trigger the creation of a new Strapi application with default configurations. Additionally, it will install the MySQL package as a project dependency.
 
 ## License
 
